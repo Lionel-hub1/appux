@@ -45,6 +45,10 @@ To get started with appux, follow these steps:
 
 5. Open your web browser and navigate to `http://localhost:8000` to access the appux platform.
 
+## Final appearance
+
+<img src="./static/Exercise 2.jpg" width="1000" height="500">
+
 ## Usage
 
 Once the appux platform is up and running, you can start exploring the available designers, posting projects, and collaborating with designers to bring your design ideas to life. Refer to the documentation and guides provided within the platform for detailed instructions on how to make the most out of appux.
