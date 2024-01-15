@@ -72,7 +72,6 @@
       </nav>
     </header>
     <main class="mt-14 px-[10vw]">
-      {% comment %} Top Intro Content {% endcomment %}
       <div class="flex flex-col items-center lg:flex-row">
         <div class="lg:w-1/2">
           <h1 class="text-4xl font-black text-black">
@@ -88,8 +87,6 @@
           />
         </div>
       </div>
-
-      {% comment %} Card Intro content {% endcomment %}
       <div class="flex flex-col items-center lg:flex-row bg-white rounded-3xl">
         <div class="lg:w-1/2 w-full">
           <img
@@ -115,16 +112,19 @@
           </p>
         </div>
       </div>
-      <div class="flex items-center justify-between py-4">
+      <div
+        class="flex flex-col lg:flex-row items-center justify-between py-4"
+        id="Links"
+      >
         <div class="flex flex-row">
           <h1 class="text-2xl font-black">All Posts</h1>
           <div class="border-l-2 border-gray-300 ml-2 mr-2"></div>
-          <div class="border-b-2 border-[#8483E2] text-[#8483E2]">
+          <a class="border-b-2 underline text-[#8483E2]" href="#Links">
             Design Process
-          </div>
-          <div class="ml-5">Industry</div>
-          <div class="ml-5">Business</div>
-          <div class="ml-5">Technology</div>
+          </a>
+          <a class="ml-5" href="#Links">Industry</a>
+          <a class="ml-5" href="#Links">Business</a>
+          <a class="ml-5" href="#Links">Technology</a>
         </div>
 
         <div class="flex items-center space-x-4">
@@ -151,6 +151,41 @@
               class="border border-gray-300 px-2 py-1 pl-4 rounded"
             />
           </div>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row justify-between mt-8">
+        <div class="lg:w-[30%]">
+          <img
+            src="{% static 'bottom_card_1.jpg' %}"
+            alt="Card 1"
+            class="w-full"
+          />
+          <h1 class="text-xs font-bold text-[#8483E2] pt-4">UI DESIGN</h1>
+          <h2 class="text-lg font-semibold mt-2">
+            Compelling Design Takes More Than "Making It Like Stripe"
+          </h2>
+        </div>
+        <div class="lg:w-[30%]">
+          <img
+            src="{% static 'bottom_card_2.jpg' %}"
+            alt="Card 2"
+            class="w-full"
+          />
+          <h1 class="text-xs font-bold text-[#8483E2] pt-4">DESIGN PROCESS</h1>
+          <h2 class="text-lg font-semibold mt-2">
+            What Is Design Thinking and How It Hacks the Way to
+          </h2>
+        </div>
+        <div class="lg:w-[30%]">
+          <img
+            src="{% static 'bottom_card_3.jpg' %}"
+            alt="Card 3"
+            class="w-full"
+          />
+          <h1 class="text-xs font-bold text-[#8483E2] pt-4">UX DESIGN</h1>
+          <h2 class="text-lg font-semibold mt-2">
+            Health care UX: How Design Can Solve Biggest Challenges For
+          </h2>
         </div>
       </div>
     </main>
